@@ -1,3 +1,5 @@
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
 def tf_idf_similarity(title, body):
   # cobine title and body in a list
   title_body=[title, body]
