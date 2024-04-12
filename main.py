@@ -1,4 +1,4 @@
-def tf_idf_similarty(title, body):
+def tf_idf_similarity(title, body):
   # cobine title and body in a list
   title_body=[title, body]
 
@@ -17,4 +17,4 @@ if __name__=="__tf_idf_similarty__":
     nabbed impressive 15 michelin stars recently made uk debut opening pavyllon\
     london located four seasons hotel london park lane fashionable mayfair\
     new restaurant showcases allénos modern"
-    tf_idf_similarty(title, body)
+    tf_idf_similarity(title, body)
