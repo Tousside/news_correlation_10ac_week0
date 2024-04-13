@@ -1,2 +1,6 @@
 /myvenv
 __pycache__/
+data.csv.zip
+domains_location.csv
+traffic_data.zip
+traffic_data
